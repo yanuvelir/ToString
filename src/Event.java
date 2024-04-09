@@ -13,7 +13,7 @@ public class Event {
 
     }
     public  String toString(){
-        return String.format("%d/%d/%d - %s", day, month, year, event);
+        return String.format("%02d/%02d/%d - %s", day, month, year, event);
     }
 
 }
